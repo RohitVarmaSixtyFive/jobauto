@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-07-24T12:10:03.153772",
+  "interaction_type": "FILL",
+  "success": true,
+  "element_info": {
+    "element_type": "input",
+    "index": 14,
+    "type_of_input": "text",
+    "name": "extension",
+    "id": "phoneNumber--extension",
+    "id_of_input_component": "phoneNumber--extension",
+    "placeholder": "",
+    "value": "",
+    "required": false,
+    "disabled": false,
+    "readonly": false,
+    "class": "css-1wl1chj",
+    "selector": "#phoneNumber--extension",
+    "label": "Phone Extension",
+    "aria_label": "",
+    "autocomplete": "",
+    "data_automation_id": ""
+  },
+  "value": "[REDACTED]"
+}

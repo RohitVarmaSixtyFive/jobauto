@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-07-24T12:09:16.561954",
+  "interaction_type": "FILL",
+  "success": true,
+  "element_info": {
+    "element_type": "input",
+    "index": 7,
+    "type_of_input": "text",
+    "name": "addressLine1",
+    "id": "address--addressLine1",
+    "id_of_input_component": "address--addressLine1",
+    "placeholder": "",
+    "value": "",
+    "required": false,
+    "disabled": false,
+    "readonly": false,
+    "class": "css-1wl1chj",
+    "selector": "#address--addressLine1",
+    "label": "Address Line 1",
+    "aria_label": "",
+    "autocomplete": "",
+    "data_automation_id": ""
+  },
+  "value": "[REDACTED]"
+}

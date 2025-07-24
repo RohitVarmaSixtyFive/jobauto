@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-07-24T11:56:56.572475",
+  "interaction_type": "FILL",
+  "success": true,
+  "element_info": {
+    "element_type": "input",
+    "index": 10,
+    "type_of_input": "text",
+    "name": "postalCode",
+    "id": "address--postalCode",
+    "id_of_input_component": "address--postalCode",
+    "placeholder": "",
+    "value": "",
+    "required": false,
+    "disabled": false,
+    "readonly": false,
+    "class": "css-1wl1chj",
+    "selector": "#address--postalCode",
+    "label": "Postal Code",
+    "aria_label": "",
+    "autocomplete": "",
+    "data_automation_id": ""
+  },
+  "value": "[REDACTED]"
+}

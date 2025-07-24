@@ -1,0 +1,20 @@
+{
+  "work_experience": [
+    {
+      "panel": 1,
+      "job_title": "Sr. Software Developer",
+      "company": "OSIsoft LLC",
+      "location": "San Francisco Bay Area - USA",
+      "is_current": true,
+      "duration": "Aug 2023 \u2013 Present"
+    },
+    {
+      "panel": 2,
+      "job_title": "Software Engineer",
+      "company": "Cybage Software",
+      "location": "Pune - India",
+      "is_current": false,
+      "duration": "Feb 2016 \u2013 Jun 2017"
+    }
+  ]
+}

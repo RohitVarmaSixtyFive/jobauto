@@ -1,0 +1,16 @@
+{
+  "education": [
+    {
+      "panel": 1,
+      "school": "University of California, Davis",
+      "degree": "Master of Science in Computer Science",
+      "field_of_study": "Computer Science"
+    },
+    {
+      "panel": 2,
+      "school": "University of Pune",
+      "degree": "Bachelor of Engineering in Computer Science",
+      "field_of_study": "Computer Science"
+    }
+  ]
+}

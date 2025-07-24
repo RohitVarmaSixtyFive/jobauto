@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-07-24T11:11:36.562707",
+  "step_name": "signin_initial_state",
+  "metadata": {
+    "description": "Form elements found before signin process",
+    "action_about_to_perform": "signin",
+    "page_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US%2C-CA%2C-Santa-Clara/Senior-AI-and-ML-Engineer---AI-for-Networking_JR2000376/apply/applyManually?q=ml+enginer",
+    "page_title": ""
+  },
+  "form_elements_count": 0,
+  "form_elements": []
+}

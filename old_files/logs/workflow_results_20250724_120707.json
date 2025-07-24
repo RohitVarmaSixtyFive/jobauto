@@ -1,0 +1,9 @@
+{
+  "workflow_started": true,
+  "authentication_successful": false,
+  "form_completion_successful": false,
+  "workflow_completed": false,
+  "errors": [
+    "signup authentication failed"
+  ]
+}

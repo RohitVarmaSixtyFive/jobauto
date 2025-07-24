@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-07-24T12:09:11.455489",
+  "interaction_type": "FILL",
+  "success": true,
+  "element_info": {
+    "element_type": "input",
+    "index": 4,
+    "type_of_input": "text",
+    "name": "legalName--firstName",
+    "id": "name--legalName--firstName",
+    "id_of_input_component": "name--legalName--firstName",
+    "placeholder": "",
+    "value": "",
+    "required": false,
+    "disabled": false,
+    "readonly": false,
+    "class": "css-1wl1chj",
+    "selector": "#name--legalName--firstName",
+    "label": "Given Name(s)*",
+    "aria_label": "",
+    "autocomplete": "",
+    "data_automation_id": ""
+  },
+  "value": "[REDACTED]"
+}

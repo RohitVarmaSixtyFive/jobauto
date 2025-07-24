@@ -1,0 +1,41 @@
+{
+  "inputs": [
+    {
+      "label": "First Name*",
+      "value": "Lin"
+    },
+    {
+      "label": "Last Name*",
+      "value": "Mei"
+    },
+    {
+      "label": "Address Line 1",
+      "value": null
+    },
+    {
+      "label": "City",
+      "value": "California"
+    },
+    {
+      "label": "Postal Code",
+      "value": null
+    },
+    {
+      "label": "Phone Number*",
+      "value": "650-450-8692"
+    },
+    {
+      "label": "Phone Extension",
+      "value": null
+    }
+  ],
+  "dropdowns": [
+    "how_did_you_hear",
+    "country",
+    "phone_type",
+    "country_phone_code"
+  ],
+  "checkboxes": [
+    "candidateIsPreviousWorker_no"
+  ]
+}

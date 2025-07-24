@@ -1,0 +1,12 @@
+{
+  "user_choice": 2,
+  "email": "lmei123456666654321@gmail.com",
+  "password": "***",
+  "elements": {
+    "email_input": true,
+    "password_input": true,
+    "verify_password_input": true,
+    "checkbox": true,
+    "submit_btn": true
+  }
+}

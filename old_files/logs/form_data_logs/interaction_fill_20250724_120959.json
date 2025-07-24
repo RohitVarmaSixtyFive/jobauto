@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-07-24T12:09:59.585741",
+  "interaction_type": "FILL",
+  "success": true,
+  "element_info": {
+    "element_type": "input",
+    "index": 13,
+    "type_of_input": "text",
+    "name": "phoneNumber",
+    "id": "phoneNumber--phoneNumber",
+    "id_of_input_component": "phoneNumber--phoneNumber",
+    "placeholder": "",
+    "value": "",
+    "required": false,
+    "disabled": false,
+    "readonly": false,
+    "class": "css-1wl1chj",
+    "selector": "#phoneNumber--phoneNumber",
+    "label": "Phone Number*",
+    "aria_label": "",
+    "autocomplete": "",
+    "data_automation_id": ""
+  },
+  "value": "[REDACTED]"
+}

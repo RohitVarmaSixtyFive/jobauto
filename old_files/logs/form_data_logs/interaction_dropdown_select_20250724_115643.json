@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-07-24T11:56:43.802790",
+  "interaction_type": "DROPDOWN_SELECT",
+  "success": true,
+  "element_info": {
+    "element_type": "button",
+    "index": 7,
+    "type_of_input": "button",
+    "name": "country",
+    "id": "country--country",
+    "id_of_input_component": "country--country",
+    "value": "29247e57dbaf46fb855b224e03170bc7",
+    "text": "United Kingdom",
+    "disabled": false,
+    "class": "css-t8rwff",
+    "selector": "#country--country",
+    "label": "United Kingdom",
+    "aria_label": "Country United Kingdom Required",
+    "aria_haspopup": "listbox",
+    "data_automation_id": "",
+    "role": "",
+    "tag_name": "button"
+  },
+  "value": "United States"
+}

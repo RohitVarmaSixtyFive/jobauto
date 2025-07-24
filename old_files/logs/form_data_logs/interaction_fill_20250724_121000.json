@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-07-24T12:10:00.606137",
+  "interaction_type": "FILL",
+  "success": false,
+  "element_info": {
+    "element_type": "input",
+    "index": 6,
+    "type_of_input": "checkbox",
+    "name": "preferredCheck",
+    "id": "name--preferredCheck",
+    "id_of_input_component": "name--preferredCheck",
+    "placeholder": "",
+    "value": "",
+    "required": false,
+    "disabled": false,
+    "readonly": false,
+    "class": "css-1hhv9wx",
+    "selector": "#name--preferredCheck",
+    "label": "I have a preferred name",
+    "aria_label": "",
+    "autocomplete": "",
+    "data_automation_id": ""
+  },
+  "value": "[REDACTED]"
+}

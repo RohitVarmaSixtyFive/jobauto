@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-07-24T11:11:36.793089",
+  "step_name": "my_information_processing",
+  "success": false,
+  "status": "FAILED",
+  "additional_data": {
+    "form_type": "my_information",
+    "success": false,
+    "final_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US%2C-CA%2C-Santa-Clara/Senior-AI-and-ML-Engineer---AI-for-Networking_JR2000376/apply/applyManually?q=ml+enginer",
+    "page_title": "CAREERS AT NVIDIA",
+    "timestamp": "2025-07-24 11:11:36"
+  }
+}

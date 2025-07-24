@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-07-24T11:56:54.014541",
+  "interaction_type": "FILL",
+  "success": true,
+  "element_info": {
+    "element_type": "input",
+    "index": 8,
+    "type_of_input": "text",
+    "name": "city",
+    "id": "address--city",
+    "id_of_input_component": "address--city",
+    "placeholder": "",
+    "value": "",
+    "required": false,
+    "disabled": false,
+    "readonly": false,
+    "class": "css-1wl1chj",
+    "selector": "#address--city",
+    "label": "City or Town",
+    "aria_label": "",
+    "autocomplete": "",
+    "data_automation_id": ""
+  },
+  "value": "[REDACTED]"
+}

@@ -1,0 +1,70 @@
+{
+  "timestamp": "2025-07-24T11:11:36.706202",
+  "step_name": "my_information_complete_initial_state",
+  "metadata": {
+    "description": "Form elements found before my_information_complete processing",
+    "action_about_to_perform": "fill_my_information_complete",
+    "page_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US%2C-CA%2C-Santa-Clara/Senior-AI-and-ML-Engineer---AI-for-Networking_JR2000376/apply/applyManually?q=ml+enginer",
+    "page_title": "CAREERS AT NVIDIA"
+  },
+  "form_elements_count": 3,
+  "form_elements": [
+    {
+      "element_type": "button",
+      "index": 0,
+      "type_of_input": "button",
+      "name": "",
+      "id": "",
+      "id_of_input_component": "utilityButtonSignIn",
+      "value": "",
+      "text": "Sign In",
+      "disabled": false,
+      "class": "css-15b36j4",
+      "selector": "[data-automation-id=\"utilityButtonSignIn\"]",
+      "label": "Sign In",
+      "aria_label": "",
+      "aria_haspopup": "",
+      "data_automation_id": "utilityButtonSignIn",
+      "role": "",
+      "tag_name": "button"
+    },
+    {
+      "element_type": "button",
+      "index": 1,
+      "type_of_input": "button",
+      "name": "",
+      "id": "",
+      "id_of_input_component": "navigationItem-Home",
+      "value": "",
+      "text": "Home",
+      "disabled": false,
+      "class": "css-1hfkkxz",
+      "selector": "[data-automation-id=\"navigationItem-Home\"]",
+      "label": "Home",
+      "aria_label": "",
+      "aria_haspopup": "",
+      "data_automation_id": "navigationItem-Home",
+      "role": "",
+      "tag_name": "button"
+    },
+    {
+      "element_type": "button",
+      "index": 2,
+      "type_of_input": "button",
+      "name": "",
+      "id": "",
+      "id_of_input_component": "navigationItem-Search for Jobs",
+      "value": "",
+      "text": "Search for Jobs",
+      "disabled": false,
+      "class": "css-1hfkkxz",
+      "selector": "[data-automation-id=\"navigationItem-Search for Jobs\"]",
+      "label": "Search for Jobs",
+      "aria_label": "",
+      "aria_haspopup": "",
+      "data_automation_id": "navigationItem-Search for Jobs",
+      "role": "",
+      "tag_name": "button"
+    }
+  ]
+}

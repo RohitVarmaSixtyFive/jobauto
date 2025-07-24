@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-07-24T11:11:11.234729",
+  "interaction_type": "FILL",
+  "success": true,
+  "element_info": {
+    "element_type": "input",
+    "index": 0,
+    "type_of_input": "text",
+    "name": "",
+    "id": "input-4",
+    "id_of_input_component": "email",
+    "placeholder": "",
+    "value": "lmei53854@gmail.com",
+    "required": false,
+    "disabled": false,
+    "readonly": false,
+    "class": "css-1wl1chj",
+    "selector": "[data-automation-id=\"email\"]",
+    "label": "Email Address",
+    "aria_label": "",
+    "autocomplete": "email",
+    "data_automation_id": "email"
+  },
+  "value": "[REDACTED]"
+}

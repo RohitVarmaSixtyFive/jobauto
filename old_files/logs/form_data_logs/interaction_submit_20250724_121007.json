@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-07-24T12:10:07.228779",
+  "interaction_type": "SUBMIT",
+  "success": true,
+  "element_info": {
+    "element_type": "button",
+    "index": 10,
+    "type_of_input": "button",
+    "name": "",
+    "id": "",
+    "id_of_input_component": "pageFooterNextButton",
+    "value": "",
+    "text": "Save and Continue",
+    "disabled": false,
+    "class": "css-wz5u7z",
+    "selector": "[data-automation-id=\"pageFooterNextButton\"]",
+    "label": "Save and Continue",
+    "aria_label": "",
+    "aria_haspopup": "",
+    "data_automation_id": "pageFooterNextButton",
+    "role": "",
+    "tag_name": "button"
+  },
+  "value": "Clicked Save and Continue"
+}

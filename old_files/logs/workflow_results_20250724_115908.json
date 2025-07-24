@@ -1,0 +1,10 @@
+{
+  "workflow_started": true,
+  "authentication_successful": true,
+  "form_completion_successful": false,
+  "workflow_completed": true,
+  "errors": [
+    "My information form completion failed",
+    "Workflow execution error: Page.wait_for_timeout: Target page, context or browser has been closed"
+  ]
+}

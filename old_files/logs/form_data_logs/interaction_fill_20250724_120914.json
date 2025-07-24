@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-07-24T12:09:14.006778",
+  "interaction_type": "FILL",
+  "success": true,
+  "element_info": {
+    "element_type": "input",
+    "index": 5,
+    "type_of_input": "text",
+    "name": "legalName--lastName",
+    "id": "name--legalName--lastName",
+    "id_of_input_component": "name--legalName--lastName",
+    "placeholder": "",
+    "value": "",
+    "required": false,
+    "disabled": false,
+    "readonly": false,
+    "class": "css-1wl1chj",
+    "selector": "#name--legalName--lastName",
+    "label": "Family Name*",
+    "aria_label": "",
+    "autocomplete": "",
+    "data_automation_id": ""
+  },
+  "value": "[REDACTED]"
+}
