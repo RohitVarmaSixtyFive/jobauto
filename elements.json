@@ -1,0 +1,110 @@
+[
+  {
+    "tag": "button",
+    "question": "current step 1 of 7",
+    "hierarchy1_data_automation_id": "utilityButtonBar",
+    "hierarchy2_data_automation_id": "navigationContainer",
+    "hierarchy3_data_automation_id": null,
+    "class": "css-15b36j4",
+    "text": "Sign In"
+  },
+  {
+    "tag": "button",
+    "question": "current step 1 of 7",
+    "hierarchy1_data_automation_id": null,
+    "hierarchy2_data_automation_id": "navigationContainer",
+    "hierarchy3_data_automation_id": null,
+    "class": "css-1hfkkxz",
+    "text": "Home"
+  },
+  {
+    "tag": "button",
+    "question": "current step 1 of 7",
+    "hierarchy1_data_automation_id": null,
+    "hierarchy2_data_automation_id": "navigationContainer",
+    "hierarchy3_data_automation_id": null,
+    "class": "css-1hfkkxz",
+    "text": "Search for Jobs"
+  },
+  {
+    "tag": "button",
+    "question": "current step 1 of 7",
+    "hierarchy1_data_automation_id": null,
+    "hierarchy2_data_automation_id": null,
+    "hierarchy3_data_automation_id": null,
+    "id": "hammyMenuIcon",
+    "aria-label": "main menu",
+    "class": "css-1exv47t"
+  },
+  {
+    "tag": "button",
+    "question": "current step 1 of 7",
+    "hierarchy1_data_automation_id": null,
+    "hierarchy2_data_automation_id": null,
+    "hierarchy3_data_automation_id": "applyFlowPage",
+    "type": "button",
+    "class": "css-1sbi3kp",
+    "text": "Back to Job Posting"
+  },
+  {
+    "tag": "input",
+    "question": "Email Address",
+    "hierarchy1_data_automation_id": null,
+    "hierarchy2_data_automation_id": null,
+    "hierarchy3_data_automation_id": "formField-email",
+    "id": "input-9",
+    "type": "text",
+    "class": "css-1wl1chj",
+    "value": "lmei1236654321@gmail.com"
+  },
+  {
+    "tag": "input",
+    "question": "Password",
+    "hierarchy1_data_automation_id": null,
+    "hierarchy2_data_automation_id": null,
+    "hierarchy3_data_automation_id": "formField-password",
+    "id": "input-10",
+    "type": "password",
+    "class": "css-1wl1chj",
+    "value": "Password@123"
+  },
+  {
+    "tag": "button",
+    "question": "Email Address",
+    "hierarchy1_data_automation_id": null,
+    "hierarchy2_data_automation_id": null,
+    "hierarchy3_data_automation_id": "noCaptchaWrapper",
+    "type": "submit",
+    "class": "css-jj5uf0",
+    "text": "Sign In"
+  },
+  {
+    "tag": "button",
+    "question": "Email Address",
+    "hierarchy1_data_automation_id": null,
+    "hierarchy2_data_automation_id": null,
+    "hierarchy3_data_automation_id": "signInContent",
+    "class": "css-14pfav7",
+    "text": "Create Account"
+  },
+  {
+    "tag": "button",
+    "question": "Email Address",
+    "hierarchy1_data_automation_id": null,
+    "hierarchy2_data_automation_id": null,
+    "hierarchy3_data_automation_id": "signInContent",
+    "class": "css-14pfav7",
+    "text": "Forgot your password?"
+  },
+  {
+    "tag": "input",
+    "question": "Enter website. This input is for robots only, do not enter if you're human.",
+    "hierarchy1_data_automation_id": null,
+    "hierarchy2_data_automation_id": null,
+    "hierarchy3_data_automation_id": null,
+    "id": "9d3f5fc6-7753-4c98-b0ff-b67a5edc91a7",
+    "name": "website",
+    "type": "text",
+    "class": "css-umjazw"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "identifier": "utilityButtonBar",
+    "question": null,
+    "details": "tag=None, type=None",
+    "action": "noop",
+    "reason": "no action required"
+  },
+  {
+    "identifier": "navigationContainer",
+    "question": null,
+    "details": "tag=None, type=None",
+    "action": "noop",
+    "reason": "no action required"
+  },
+  {
+    "identifier": "hammyMenuIcon",
+    "question": "current step 1 of 7",
+    "details": "tag=button, type=None",
+    "action": "noop",
+    "reason": "no action required"
+  },
+  {
+    "identifier": "applyFlowPage",
+    "question": null,
+    "details": "tag=None, type=None",
+    "action": "noop",
+    "reason": "no action required"
+  },
+  {
+    "identifier": "formField-email",
+    "question": null,
+    "details": "tag=None, type=None",
+    "action": "unknown",
+    "value": "lmei1236654321@gmail.com"
+  },
+  {
+    "identifier": "formField-password",
+    "question": null,
+    "details": "tag=None, type=None",
+    "action": "unknown",
+    "value": "Password@123"
+  },
+  {
+    "identifier": "noCaptchaWrapper",
+    "question": null,
+    "details": "tag=None, type=None",
+    "action": "noop",
+    "reason": "no action required"
+  },
+  {
+    "identifier": "signInContent",
+    "question": null,
+    "details": "tag=None, type=None",
+    "action": "noop",
+    "reason": "no action required"
+  },
+  {
+    "identifier": "input-9",
+    "question": "Email Address",
+    "details": "tag=input, type=text",
+    "action": "fill",
+    "value": "lmei1236654321@gmail.com"
+  },
+  {
+    "identifier": "input-10",
+    "question": "Password",
+    "details": "tag=input, type=password",
+    "action": "fill",
+    "value": "Password@123"
+  },
+  {
+    "identifier": "css-15b36j4",
+    "question": null,
+    "details": "tag=None, type=None",
+    "action": "noop",
+    "reason": "no action required"
+  },
+  {
+    "identifier": "css-1hfkkxz",
+    "question": null,
+    "details": "tag=None, type=None",
+    "action": "noop",
+    "reason": "no action required"
+  },
+  {
+    "identifier": "css-1exv47t",
+    "question": null,
+    "details": "tag=None, type=None",
+    "action": "noop",
+    "reason": "no action required"
+  },
+  {
+    "identifier": "css-1sbi3kp",
+    "question": null,
+    "details": "tag=None, type=None",
+    "action": "noop",
+    "reason": "no action required"
+  },
+  {
+    "identifier": "css-1wl1chj",
+    "question": null,
+    "details": "tag=None, type=None",
+    "action": "noop",
+    "reason": "no action required"
+  },
+  {
+    "identifier": "css-jj5uf0",
+    "question": null,
+    "details": "tag=None, type=None",
+    "action": "noop",
+    "reason": "no action required"
+  },
+  {
+    "identifier": "css-14pfav7",
+    "question": null,
+    "details": "tag=None, type=None",
+    "action": "noop",
+    "reason": "no action required"
+  },
+  {
+    "identifier": "0be2ae4e-449f-48b5-ba16-37895df3557b",
+    "question": "Enter website. This input is for robots only, do not enter if you're human.",
+    "details": "tag=input, type=text",
+    "action": "skip",
+    "reason": "unanswerable"
+  }
+]

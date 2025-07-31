@@ -4,19 +4,19 @@
     "first_name": "Lin",
     "last_name": "Mei",
     "title": "Software Engineer",
-    "email": "lmei123456666654321@gmail.com",
+    "email": "lmei12366511321@gmail.com",
     "password": "Password@123",
-    "phone": "650-450-8692",
+    "phone": "6504508692",
     "location": "California, USA",
     "address": {
-      "street": "",
-      "city": "California",
-      "state": "CA",
-      "zipcode": "",
-      "country": "United States"
+      "street": "House 36, Sunset Boulevard",
+      "city": "San Diego",
+      "state": "California",
+      "postalCode": "90080",
+      "country": "United States of America"
     },
     "professional_info": {
-      "current_position": "Sr. Software Developer",
+      "current_jobTitle": "Sr. Software Developer",
       "years_of_experience": 9,
       "current_company": "OSIsoft LLC",
       "github_profile": "https://github.com/navinAdhe",
@@ -71,7 +71,7 @@
     {
       "company": "OSIsoft LLC",
       "location": "San Francisco Bay Area - USA",
-      "position": "Sr. Software Developer",
+      "jobTitle": "Sr. Software Developer",
       "duration": "Aug 2023 – Present",
       "responsibilities": [
         "Developed high-throughput C# agent processing 150k+ time-series events/sec.",
@@ -85,7 +85,7 @@
     {
       "company": "Cybage Software",
       "location": "Pune - India",
-      "position": "Software Engineer",
+      "jobTitle": "Software Engineer",
       "duration": "Feb 2016 – Jun 2017",
       "responsibilities": [
         "Developed scalable apps in C# using Entity Framework with SQL Server.",
@@ -101,14 +101,14 @@
       "field_of_study": "Computer Science",
       "institution": "University of California, Davis",
       "location": "California, USA",
-      "graduation_year": 2018
+      "graduation_year": "2016 - 2018"
     },
     {
       "degree": "Bachelor of Engineering in Computer Science",
       "field_of_study": "Computer Science",
       "institution": "University of Pune",
       "location": "Maharashtra, India",
-      "graduation_year": 2015
+      "graduation_year": "2011 - 2015"
     }
   ],
   "certifications": [
@@ -149,8 +149,7 @@
     "industries": ["Technology", "Software", "Data Analytics", "AI/ML", "Cloud Computing"]
   },
   "documents": {
-    "resume_path": "documents/lin_mei_resume.pdf",
-    "cover_letter_path": "documents/lin_mei_cover_letter.pdf",
-    "portfolio_path": "documents/lin_mei_portfolio.pdf"
-  }
+    "resume_path": "/Users/mjolnir/Downloads/Lin Mei_Experiened Level Software.pdf"
+  },
+  "fluent_languages": ["English", "Mandarin"]
 }
