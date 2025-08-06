@@ -1,100 +1,241 @@
-# Jobauto – `final.ipynb` Notebook
+# Job Application Automation System
 
-This notebook automates job applications on Workday-powered portals (e.g., NVIDIA, Hitachi) using Playwright and OpenAI. It fills out sign-in/sign-up, personal info, experience, education, and other form sections by mapping your user profile data to the web form fields.
-
----
+A comprehensive, modular system for automating job applications on Workday-based platforms. This system handles authentication, form filling, and various application sections including personal information, work experience, education, skills, and voluntary disclosures.
 
 ## Features
 
-- **Automated browser navigation** using Playwright (async, Chromium)
-- **Sign In / Sign Up**: Fills credentials from your profile
-- **Dynamic field handling**: Text, radio, listbox, dropdown, textarea, etc.
-- **AI-powered field mapping**: Uses OpenAI to select the best answers/options for each question based on your profile
-- **Experience/Education panels**: Loops through your work/education history and fills each section
-- **Logs progress** and prints detailed debug info for each step
+- **Automated Authentication**: Support for both sign-in and sign-up processes
+- **Personal Information Form**: Automatically fills personal details, address, contact information
+- **Work Experience**: Handles multiple work experiences with add functionality
+- **Education**: Manages education history with degree, institution, and date information
+- **Skills Management**: Intelligent handling of skills and technologies with multi-select support
+- **Voluntary Disclosures**: Proper handling of diversity and inclusion questions
+- **Resume Upload**: Automatic resume file upload
+- **AI-Powered Form Filling**: Uses OpenAI to intelligently map user data to form fields
+- **Comprehensive Logging**: Detailed logs of all actions and form submissions
+- **Modular Architecture**: Clean, maintainable code structure
 
----
+## Supported Companies
 
-## Requirements
+The system currently supports job applications for:
+- NVIDIA
+- Salesforce
+- Hitachi
+- ICF
+- Harris Computer
 
-- Python 3.8+
-- [Playwright](https://playwright.dev/python/) (`pip install playwright`)
-- [OpenAI Python SDK](https://github.com/openai/openai-python) (`pip install openai`)
-- [python-dotenv](https://pypi.org/project/python-dotenv/) (`pip install python-dotenv`)
-- A valid OpenAI API key (set in `.env` as `OPENAI_API_KEY`)
-- User profile JSON at `data/user_profile.json` (see below for format)
+## Installation
 
----
+1. Clone or download the repository
+2. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Install Playwright browsers:
+   ```bash
+   playwright install
+   ```
+4. Copy the environment file and add your OpenAI API key:
+   ```bash
+   cp .env.example .env
+   # Edit .env and add your OpenAI API key
+   ```
+
+## Configuration
+
+### User Profile Setup
+
+Edit `data/user_profile.json` with your personal information. The file should include:
+
+```json
+{
+  "personal_information": {
+    "name": "Your Name",
+    "first_name": "Your First Name",
+    "last_name": "Your Last Name",
+    "email": "your.email@example.com",
+    "password": "YourPassword",
+    "phone": "1234567890",
+    "address": {
+      "street": "123 Main St",
+      "city": "Your City",
+      "state": "Your State",
+      "postalCode": "12345",
+      "country": "United States of America"
+    }
+  },
+  "work_experience": [
+    {
+      "company": "Company Name",
+      "location": "City, State",
+      "jobTitle": "Your Job Title",
+      "duration": "Jan 2020 – Present",
+      "responsibilities": ["Responsibility 1", "Responsibility 2"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Your Degree",
+      "field_of_study": "Your Field",
+      "institution": "University Name",
+      "location": "City, State",
+      "graduation_year": "2020"
+    }
+  ],
+  "technical_skills": {
+    "programming_languages": ["Python", "JavaScript", "Java"]
+  },
+  "documents": {
+    "resume_path": "/path/to/your/resume.pdf"
+  }
+}
+```
+
+### Environment Variables
+
+Create a `.env` file with your OpenAI API key:
+```
+OPENAI_API_KEY=your_openai_api_key_here
+```
 
 ## Usage
 
-1. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   playwright install
-   ```
+### Basic Usage
 
-2. **Set up your OpenAI API key:**
-   - Create a `.env` file in the project root:
-     ```
-     OPENAI_API_KEY=sk-...
-     ```
+Run the main script:
+```bash
+python final.py
+```
 
-3. **Prepare your user profile:**
-   - Edit `data/user_profile.json` with your info:
-     ```json
-     {
-       "personal_information": {
-         "email": "your@email.com",
-         "password": "yourpassword",
-         ...
-       },
-       "work_experience": [
-         {
-           "company": "...",
-           "title": "...",
-           ...
-         }
-       ],
-       "education": [
-         {
-           "school": "...",
-           "degree": "...",
-           ...
-         }
-       ]
-     }
-     ```
+The script will prompt you to:
+1. Choose authentication method (1 for sign-in, 2 for sign-up)
+2. Select the company to apply to
 
-4. **Run the notebook:**
-   - Open `final.ipynb` in VS Code or Jupyter.
-   - Run all cells in order.
-   - Follow prompts in the terminal (choose sign-in or sign-up).
-   - The browser will open and fill the application automatically.
+### Programmatic Usage
 
----
+```python
+import asyncio
+from final import JobApplicationBot
 
-## How It Works
+async def apply_to_jobs():
+    bot = JobApplicationBot()
+    await bot.run_full_application(company="nvidia", auth_type=1)
 
-- **Browser Automation:** Launches Chromium, navigates to the job application URL, and waits for the page to load.
-- **Sign In/Up:** Prompts you to choose sign-in or sign-up, then fills credentials from your profile.
-- **Form Filling:** For each page/section:
-  - **Text, radio, dropdowns, listboxes:** Uses OpenAI to map your profile data to the best answer/option.
-  - **Experience/Education:** Loops through your entries and fills each panel.
-  - **Skills, prompts, and other fields:** Handles dynamically, selecting options or skipping as needed.
-- **AI Mapping:** Prompts OpenAI with your profile and the field/question/options, and fills the field with the AI's response.
-- **Debug Output:** Prints each step, field, and AI decision for transparency and troubleshooting.
+asyncio.run(apply_to_jobs())
+```
 
----
+## Architecture
 
-## Notes
+### Main Components
 
-- **Supported Portals:** Designed for Workday-based job portals (tested on NVIDIA, Hitachi, Salesforce, etc.).
-- **Extensibility:** You can adapt the selectors and logic for other portals or custom fields.
-- **Safety:** No credentials or data are sent anywhere except to OpenAI for field mapping.
+1. **JobApplicationBot**: Main orchestrator class
+2. **Authentication Handler**: Manages sign-in/sign-up processes
+3. **Form Processors**: Specialized handlers for different form sections
+4. **AI Integration**: OpenAI-powered form field mapping
+5. **Element Extractors**: DOM element analysis and information extraction
+6. **Logging System**: Comprehensive action and result logging
 
----
+### Key Methods
+
+- `initialize_browser()`: Sets up Playwright browser instance
+- `navigate_to_job()`: Navigates to the job application page
+- `handle_authentication()`: Manages login/signup process
+- `process_application_form()`: Main form processing orchestrator
+- `_process_*_section()`: Specialized section processors
+- `_get_ai_response_for_section()`: AI-powered form mapping
+- `_fill_form_elements()`: Element filling logic
+
+### Form Section Handlers
+
+- **Personal Information**: Basic contact and address information
+- **Work Experience**: Multiple work history entries with dates
+- **Education**: Academic background and degrees
+- **Skills**: Technical and soft skills with multi-select support
+- **Application Questions**: Company-specific questions
+- **Voluntary Disclosures**: Diversity and inclusion information
+- **Resume Upload**: Document upload handling
+- **Disability Disclosures**: Accessibility-related questions
+
+## Advanced Features
+
+### AI-Powered Form Mapping
+
+The system uses OpenAI's GPT-4 to intelligently map user profile data to form fields. This includes:
+- Context-aware field identification
+- Option matching for dropdowns
+- Date format handling
+- Skills array processing
+- Fallback handling for unknown fields
+
+### Multi-Select Container Handling
+
+Special handling for complex form elements like skills input:
+- Automatic detection of multi-select containers
+- Array-based skill addition
+- Dynamic skill entry with keyboard interactions
+
+### Comprehensive Error Handling
+
+- Graceful degradation on element not found
+- Detailed error logging
+- Retry mechanisms for unstable elements
+- Session recovery capabilities
+
+### Logging and Debugging
+
+The system creates detailed logs in the `logs/` directory:
+- Action logs for each form section
+- Element interaction records
+- AI response mappings
+- Error traces and debugging information
+
+## Troubleshooting
+
+### Common Issues
+
+1. **Browser doesn't open**: Ensure Playwright is properly installed
+2. **Elements not found**: Form structures may have changed; check selectors
+3. **AI responses incorrect**: Verify OpenAI API key and model access
+4. **File upload fails**: Check file paths and permissions
+
+### Debug Mode
+
+Run with additional logging:
+```python
+import logging
+logging.basicConfig(level=logging.DEBUG)
+```
+
+### Manual Intervention
+
+The system runs with `headless=False` by default, allowing you to:
+- Monitor the automation process
+- Manually intervene if needed
+- Debug form interaction issues
+
+## Security Considerations
+
+- Store sensitive information securely
+- Use environment variables for API keys
+- Review logs before sharing
+- Consider using separate test credentials
+
+## Contributing
+
+To extend the system:
+1. Add new company URLs to `company_urls` dictionary
+2. Create specialized section processors for unique form types
+3. Extend the AI prompt for better field mapping
+4. Add new element types to the form handlers
+
+## License
+
+This project is for educational and personal use. Please respect the terms of service of the job application platforms you use this with.
 
 ## Disclaimer
 
-This notebook is for educational and personal automation purposes only. Use responsibly and at your own risk. Do not use for spamming or
+This tool is designed to assist with job applications by automating form filling. Users are responsible for:
+- Ensuring accuracy of submitted information
+- Complying with platform terms of service
+- Respecting rate limits and usage policies
+- Verifying all submitted applications

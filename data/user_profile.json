@@ -4,7 +4,7 @@
     "first_name": "Lin",
     "last_name": "Mei",
     "title": "Software Engineer",
-    "email": "lmei1234567891@gmail.com",
+    "email": "lmei1231115191@gmail.com",
     "password": "Password@123",
     "phone": "6504508692",
     "location": "California, USA",
@@ -25,18 +25,11 @@
       "skills": [
         "C#",
         "TypeScript",
-        "Java",
-        "SQL",
-        "HTML5",
-        "CSS3",
         "Python",
-        ".NET Core",
-        "Angular 2+",
+        "Azure",
+        "Angular",
         "RxJS",
-        "Entity Framework",
-        "React",
-        "Redux",
-        "Bootstrap 4"
+        "SignalR"
       ],
       "education": [
         {
@@ -65,7 +58,7 @@
     "Chatbot development experience using Microsoft Bot Framework and LUIS."
   ],
   "technical_skills": {
-    "programming_languages": ["C#", "TypeScript", "Java", "JavaScript", "SQL", "HTML5", "CSS3", "Python"]
+    "programming_languages": ["C#", "TypeScript"]
   },
   "work_experience": [
     {
